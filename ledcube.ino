@@ -4,9 +4,18 @@
 #define COLS (SIZE*SIZE)
 
 byte levelPins[SIZE] = {
-  10,11,12};
+  46,48,44};
 byte colPins[COLS] = {
-  0,1,2,3,4,5,6,7,8};
+  22, //0
+  24, //1
+  26, //2
+  34, //3
+  32, //4
+  28, //5
+  38, //6
+  36, //7
+  30  //8
+};
 
 LedCube cube(3, levelPins, colPins);
 
@@ -111,6 +120,7 @@ void loop ()
     }
   } 
 }
+
 
 
 
